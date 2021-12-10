@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.header {
+    background-color:#303030;
+;
+}
+.navbar {
+    max-width: 1682px;
+    max-height: 57px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+.navbar-menu {
+    margin: 0;
+    padding: 53px; /*добавляю отступ */
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.navbar-item {
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.navbar-link {
+    text-decoration: none;
+color: #fff;
+}
+.icon {
+background-color: #303030;
+    color: #ffffff;
+    border-color: white;
+    border-radius: 3px;
+    height: 24px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    color: white;
+    text-decoration: none;
+}
